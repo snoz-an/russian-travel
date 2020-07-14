@@ -1,0 +1,14 @@
+.two-columns__paragraph {
+    max-width: 484px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 24px;
+    grid-area: paragraph;
+}
+
+.two-columns__paragraph:last-child {
+    margin: 0;
+}

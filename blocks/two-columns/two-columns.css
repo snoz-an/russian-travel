@@ -1,0 +1,86 @@
+@import url(./__title/two-columns__title.css);
+@import url(./__image/two-columns__image.css);
+@import url(./__website/two-columns__website.css);
+@import url(./__url/two-columns__url.css);
+@import url(./__link/two-columns__link.css);
+@import url(./__paragraph/two-columns__paragraph.css);
+
+.two-columns {
+    display: grid;
+    list-style-type: none;
+    grid-template-areas: 
+    "title website"
+    "image paragraph"
+    "image paragraph";
+    gap: 40px;
+    grid-template-columns: 47%;
+    margin: auto;
+    width: 76.87%;
+    padding-bottom: 0px;
+    grid-row-gap: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+.two-columns {
+    width: 90.6%;
+    grid-column-gap: 32px;
+}
+
+.two-columns__image {
+    width: 42.9vw;
+}
+
+}
+
+@media screen and (max-width: 877px) {
+.two-columns {
+    width: 93.7%;
+    grid-column-gap: 28px;
+    }
+    
+.two-columns__image {
+    width: 44.2vw;
+    }
+
+.two-columns__title {
+    font-size: 42px;
+    line-height: 110%;
+    margin: 72px 0 48px 0;
+    }
+
+.two-columns__paragraph {
+    font-size: 16px;
+    line-height: 162%;
+    }
+    
+    }
+
+@media screen and (max-width: 500px) {
+.two-columns {
+     display: flex;
+     flex-direction: column;
+     width: 100%;    
+        }
+
+.two-columns__website {
+     display: none;
+        }
+
+.two-columns__text {
+     width: 90%;
+     margin: auto;
+        }
+
+.two-columns__image {
+     width: 100%;
+     margin-bottom: 32px;
+     max-width: 100%;
+        }
+
+.two-columns__title {
+     margin: 48px auto 32px auto;
+     width: 90%;
+     font-size: 32px;
+     line-height: 109%;
+        }
+    }

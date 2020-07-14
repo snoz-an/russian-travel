@@ -1,0 +1,9 @@
+.header__link_underline {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.header__link_underline:hover {
+    opacity: .8;
+    transition: ease-in-out 1s;
+}

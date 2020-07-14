@@ -1,0 +1,6 @@
+.two-columns__image {
+    width: 35.9vw;
+    max-width: 460px;
+    max-height: 460px;
+    grid-area: image;
+}
