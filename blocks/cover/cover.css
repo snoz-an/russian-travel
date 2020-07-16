@@ -2,97 +2,22 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
 @import url(./__opacity/cover__opacity.css);
+@import url(./__link/cover__link.css);
 
 .cover {
         width: 92.5%;
+        height: 0;
         margin: auto;
         position: relative;
-}
-
-
-
-@media screen and (min-width: 1280px) {
-    .cover__background {
-        min-height: 740px;
-        min-width: 92.5%;
-        width: 100%;
-    }
+        background-image: url(../../images/trains.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 57.8%;  
 }
 
 @media screen and (max-width: 1024px) {
-
     .cover {
         width: 100%;
-    }
-
-    .cover__background {
-        width: 100%;
-    }
-
-    .cover__title {
-        left: 22%;
-        right: 22%;
-        top: 27%;
-        position: absolute;
-    }
-
-    .cover__subtitle {
-        left: 32%;
-        bottom: 30%;
+        padding-bottom: 63.5%;
     }
 }
-
-@media screen and (max-width: 768px) {
-    .cover {
-        width: 100%;
-    }
-
-    .cover__title {
-        top: 115px;
-        left: 12%;
-    }
-
-    .cover__subtitle {
-        bottom: 15%;
-        left: 25%;
-    }
-}
-
-@media screen and (max-width: 655px) {
-
-    .cover__title {
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 109%;
-        min-width: 230px;
-        text-align: center;
-        left: 20%;
-    }
-
-    .cover__subtitle {
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 114%;
-        max-width: 288px;
-        width: 100%;
-        left: 20%;
-    }
-
-}
-
-@media screen and (max-width: 400px) {
-    .cover__title {
-        top: 16.5%;
-        left: 4.4%;
-        right: 4.4%;
-    }
-
-    .cover__subtitle {
-        bottom: 6%;
-        left: 2%;
-    }
-}
-
-
-
-

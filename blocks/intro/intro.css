@@ -4,30 +4,12 @@
 @import url(./__span-number/intro__span-number.css);
 
     .intro {
-        width: 76.8%; 
-        min-height: 428px;
+        width: 76.8%;
         padding: 92px 0 92px;
         margin: auto;
 }
 
-@media screen and (max-width: 400px) {
-    .intro__title {
-        max-width: 288px;
-        width: 100%;
-        font-size: 32px;
-        line-height: 109%;
-        min-height: 70px;
-    }
-}
 
-@media screen and (max-width: 320px) {
-    .intro {
-        width: 90%;
-        padding-bottom: 64px;
-    }
-
-    
-}
 
 @media screen and (max-width: 1024px) {
     .intro {
@@ -38,5 +20,15 @@
 @media screen and (max-width: 768px) {
     .intro {
         padding-bottom: 88px;
+        width: 93.75%;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        width: 90%;
+        padding-bottom: 64px;
+    }
+
+    
 }

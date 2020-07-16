@@ -348,3 +348,6 @@
     display: none;
   }
   
+  figure {
+    margin: 0;
+  }

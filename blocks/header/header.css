@@ -11,3 +11,10 @@
     width: 92.5%;
 }
 
+@media screen and (max-width: 400px) {
+    .header {
+        width: 90%;
+        padding-top: 16px;
+    }
+}
+

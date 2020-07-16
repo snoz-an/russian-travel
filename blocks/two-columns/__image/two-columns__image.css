@@ -1,6 +1,25 @@
 .two-columns__image {
     width: 35.9vw;
     max-width: 460px;
-    max-height: 460px;
     grid-area: image;
 }
+
+@media screen and (max-width: 1024px) {
+    .two-columns__image {
+        width: 42.9vw;
+    }   
+    }
+
+    @media screen and (max-width: 877px) {
+            
+    .two-columns__image {
+        width: 44.2vw;
+            }
+        }
+ @media screen and (max-width: 500px) {
+            
+    .two-columns__image {
+         width: 100%;
+         margin-bottom: 32px;
+        }       
+        }

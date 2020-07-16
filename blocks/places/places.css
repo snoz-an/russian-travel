@@ -2,3 +2,15 @@
     margin: auto;
     padding-bottom: 92px;
 }
+
+@media screen and (max-width: 768px) {
+    .places {
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .places {
+        padding-bottom: 64px;
+    }
+}
