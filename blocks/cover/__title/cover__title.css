@@ -7,10 +7,12 @@
     min-width: 560px;
     max-width: 40vw;
     color: #FFFFFF;
-    position: relative;
+    filter: brightness(100%);
     padding-top: 21%;
     margin-bottom: 32px;
+    pointer-events: none;
 }
+
 
 @media screen and (max-width: 1024px) {
     .cover__title {
@@ -30,13 +32,8 @@
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 16px;
-        padding-top: 10%;
+        padding-top: 13%;
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .cover__title {
-        
-    }
-}
 

@@ -1,23 +1,38 @@
-@import url(./__background/cover__background.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
 @import url(./__opacity/cover__opacity.css);
 @import url(./__link/cover__link.css);
 
 .cover {
-        width: 92.5%;
-        height: 0;
+        width: 92.5%;     
         margin: auto;
         position: relative;
         background-image: url(../../images/trains.jpg);
         background-size: cover;
         background-position: center;
-        padding-bottom: 57.8%;  
+        padding-bottom: 19.6%;  
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
         width: 100%;
-        padding-bottom: 63.5%;
+        padding-bottom: 20.1%
     }
 }
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-bottom: 15.1%
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        padding-bottom: 9%;
+    }
+}
+
+
+
+
+

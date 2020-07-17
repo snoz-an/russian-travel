@@ -6,7 +6,8 @@
     margin: 0 auto;
     width: 360px;
     color: #FFFFFF;
-    position: relative;
+    filter: brightness(100%);
+    pointer-events: none;
 }
 
 @media screen and (max-width: 580px) {
